@@ -4,14 +4,17 @@
 - Open the already installed Metamask-Flask extension and set up your account.
 - Navigate to [testing dapp](https://nufi-demo-sso-7c6ea9888095.herokuapp.com/).
 - Click `Sign in with Google`.
+- Confirm action inside a floating NuFi widget that should appear.
 - In the popup that appears choose your Google account and confirm.
 - Choose a password.
 - Fund your wallet (we are using Cardano preprod network).
 - Create a game according to the dapp.
-- Sign transaction.
+- Sign transaction (prompt should be displayed within the floating Widget).
 - Wait until the game move expires.
 - Click on `Get your funds back`.
-- Sign transaction.
+- Sign transaction (prompt should be displayed within the floating Widget).
+
+TODO: link to videos
 
 ## Troubleshooting
 
