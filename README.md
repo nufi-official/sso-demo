@@ -6,24 +6,31 @@ We are looking for further funding for this project through [Catalyst grant](htt
 
 ## How to test
 
-### Test using forked [adaplays](https://github.com/vacuumlabs/nufi-adaplays.xyz) testing dapp
-- Please try this prototype in a new Chrome profile or at least disable all wallet extensions in your Chrome.
-- Navigate to [testing dapp](https://nufi-demo-sso-7c6ea9888095.herokuapp.com/).
-   * Note that this is just a testing dapp and is not part of the proposal itself.
+### Test using forked [adaplays](https://github.com/vacuumlabs/nufi-adaplays.xyz) testing dApp
+
+#### Connect
+- Please try this prototype in a new Chrome profile (with no extensions) or at least disable all wallet extensions first.
+- Navigate to the [testing dapp here](https://nufi-demo-sso-7c6ea9888095.herokuapp.com/).
+  * Note: this is just a testing dApp and is not part of our solution.
 - Click `Sign in with Google`.
-- Confirm action inside a floating NuFi widget that should appear.
-- In the web3Auth popup that appears choose your Google account and confirm.
-- Choose a password (dapp specific, unrelated to our product).
-- Fund your wallet via [faucet](https://docs.cardano.org/cardano-testnet/tools/faucet/) (we are using Cardano preprod network).
-  * You will have to refresh the dapp page and re-login with `Sign in with Google` button to reload your balance.
-- Inspect the content of the NuFi floating widget.
-- Create a game according to the dapp.
-- The NuFi floating widget should show a sign transaction prompt.
-- Sign transaction.
+- A NuFi wallet widget should appear; click `Allow`.
+- Next, a Web3auth popup should appear; choose your Google account and log in.
+- Finally, choose a game password (this is required by the dApp and is unrelated to our product).
+
+#### Fund your wallet
+- Fund your wallet by claiming test ADA from this [faucet](https://docs.cardano.org/cardano-testnet/tools/faucet/) (we are using Cardano Preprod, so be sure to select `Preprod Testnet`).
+- You can find your wallet’s receiving address in the widget (click Receive).
+  * You will have to refresh the dApp page and re-login (by clicking `Sign in with Google` button) to re-load your balance.
+
+#### Tasks
+- Inspect the content of the NuFi floating wallet widget.
+- Create a game by following the instructions on the dApp.
+- The NuFi floating widget should show a `Sign transaction` prompt.
+- Sign the transaction.
 - Wait until the game move expires.
-- Click on `Get your funds back`.
-- The NuFi floating widget should show a sign transaction prompt.
-- Sign transaction.
+- Click on Get your funds back.
+- The NuFi floating widget should show a `Sign transaction` prompt.
+- Sign the transaction.
 
 ### Troubleshooting
 
