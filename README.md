@@ -6,7 +6,7 @@
 - Click `Sign in with Google`.
 - Confirm action inside a floating NuFi widget that should appear.
 - In the popup that appears choose your Google account and confirm.
-- Choose a password.
+- Choose a password (dapp specific, unrelated to our product).
 - Fund your wallet (we are using Cardano preprod network).
 - Create a game according to the dapp.
 - Sign transaction (prompt should be displayed within the floating Widget).
