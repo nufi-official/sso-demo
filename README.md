@@ -1,7 +1,7 @@
 # How to test
 
 ## Test using forked [adaplays](https://github.com/vacuumlabs/nufi-adaplays.xyz) testing dapp
-- Open the already installed Metamask-Flask extension and set up your account.
+- Create a new Chrome profile to not interfere with other extensions.
 - Navigate to [testing dapp](https://nufi-demo-sso-7c6ea9888095.herokuapp.com/).
 - Click `Sign in with Google`.
 - Confirm action inside a floating NuFi widget that should appear.
